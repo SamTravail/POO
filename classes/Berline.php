@@ -1,6 +1,7 @@
 <?php
 
-class Berline extends Voiture
+// le mot cl" final bloque la possibilité d'hériter la class
+final class Berline extends Voiture
 {
     private $nbrPortes =5;
 
