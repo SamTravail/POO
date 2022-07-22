@@ -2,7 +2,6 @@
 
 class Voiture extends Vehicule
 {
-    private string $couleur;
     public int $nbrRoues = 4;
 
     public function __construct(string $couleur)
