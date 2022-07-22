@@ -1,6 +1,10 @@
 <?php
 
-require_once './classes/Voiture.php';
+// fonction permettant le chargement automatique des classes
+spl_autoload_register(function ($className) {
+    require_once './classes/' . $className . '.php';
+});
+
 
 // ---------------------- Voiture 1 -----------
 
